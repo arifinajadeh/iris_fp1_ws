@@ -1,0 +1,4 @@
+Invoking command in '/home/arifin/iris_fp1_ws/src/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/src/build/vision -- -j12 -l12
+Invoked command in '/home/arifin/iris_fp1_ws/src/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/src/build/vision -- -j12 -l12
+Invoking command in '/home/arifin/iris_fp1_ws/src/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arifin/iris_fp1_ws/src/build/vision
+Invoked command in '/home/arifin/iris_fp1_ws/src/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arifin/iris_fp1_ws/src/build/vision

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-873f0d4dd2e2ddf7d5ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "communication",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_uninstall-7b16f2b8a71d9e11fd49.json",
+					"name" : "communication_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udp_receiver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udp_receiver-0bf72dec6e38bbf16561.json",
+					"name" : "udp_receiver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udp_sender::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udp_sender-46835f3ee4b6d2dc61ad.json",
+					"name" : "udp_sender",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4fcc563dd39f543a6e03.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/arifin/iris_fp1_ws/build/communication",
+		"source" : "/home/arifin/iris_fp1_ws/src/communication"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

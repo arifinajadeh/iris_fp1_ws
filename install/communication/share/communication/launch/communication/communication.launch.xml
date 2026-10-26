@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Launch UDP Receiver node -->
+  <node pkg="communication" exec="udp_receiver" name="UDPReceiver" output="screen" args="12151" />
+
+  <!-- Launch UDP Sender node -->
+  <node pkg="communication" exec="udp_sender" name="UDPSender" output="screen" args="100 0 127.0.0.1 12151" />
+</launch>

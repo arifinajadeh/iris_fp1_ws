@@ -1,0 +1,27 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/udp_receiver.dir/src/udp_receiver.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/udp_sender.dir/src/udp_sender.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable udp_sender[0m
+[ 75%] Built target udp_sender
+[100%] [32m[1mLinking CXX executable udp_receiver[0m
+[100%] Built target udp_receiver
+-- Install configuration: ""
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/lib/communication/udp_sender
+-- Set non-toolchain portion of runtime path of "/home/arifin/iris_fp1_ws/src/install/communication/lib/communication/udp_sender" to ""
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/communication/launch
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/communication/launch/communication
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/communication/launch/communication/communication.launch.xml
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/ament_index/resource_index/package_run_dependencies/communication
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/ament_index/resource_index/parent_prefix_path/communication
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/communication/environment/ament_prefix_path.sh
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/communication/environment/ament_prefix_path.dsv
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/communication/environment/path.sh
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/communication/environment/path.dsv
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/communication/local_setup.bash
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/communication/local_setup.sh
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/communication/local_setup.zsh
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/communication/local_setup.dsv
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/communication/package.dsv
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/ament_index/resource_index/packages/communication
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/communication/cmake/communicationConfig.cmake
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/communication/cmake/communicationConfig-version.cmake
+-- Installing: /home/arifin/iris_fp1_ws/src/install/communication/share/communication/package.xml
