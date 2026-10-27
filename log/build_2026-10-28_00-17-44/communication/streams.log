@@ -1,0 +1,30 @@
+[0.007s] Invoking command in '/home/arifin/iris_fp1_ws/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/communication -- -j12 -l12
+[0.056s] [ 50%] Built target udp_receiver
+[0.058s] [ 75%] [32mBuilding CXX object CMakeFiles/udp_sender.dir/src/udp_sender.cpp.o[0m
+[1.965s] [100%] [32m[1mLinking CXX executable udp_sender[0m
+[2.062s] [100%] Built target udp_sender
+[2.072s] Invoked command in '/home/arifin/iris_fp1_ws/build/communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/communication -- -j12 -l12
+[2.080s] Invoking command in '/home/arifin/iris_fp1_ws/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arifin/iris_fp1_ws/build/communication
+[2.091s] -- Install configuration: ""
+[2.091s] -- Installing: /home/arifin/iris_fp1_ws/install/communication/lib/communication/udp_sender
+[2.091s] -- Set non-toolchain portion of runtime path of "/home/arifin/iris_fp1_ws/install/communication/lib/communication/udp_sender" to ""
+[2.091s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/lib/communication/udp_receiver
+[2.092s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/share/communication/launch
+[2.092s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/share/communication/launch/communication
+[2.092s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/share/communication/launch/communication/communication.launch.xml
+[2.093s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/share/ament_index/resource_index/package_run_dependencies/communication
+[2.093s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/share/ament_index/resource_index/parent_prefix_path/communication
+[2.093s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/share/communication/environment/ament_prefix_path.sh
+[2.093s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/share/communication/environment/ament_prefix_path.dsv
+[2.093s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/share/communication/environment/path.sh
+[2.094s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/share/communication/environment/path.dsv
+[2.094s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/share/communication/local_setup.bash
+[2.095s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/share/communication/local_setup.sh
+[2.095s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/share/communication/local_setup.zsh
+[2.095s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/share/communication/local_setup.dsv
+[2.096s] -- Installing: /home/arifin/iris_fp1_ws/install/communication/share/communication/package.dsv
+[2.096s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/share/ament_index/resource_index/packages/communication
+[2.097s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/share/communication/cmake/communicationConfig.cmake
+[2.097s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/share/communication/cmake/communicationConfig-version.cmake
+[2.097s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/communication/share/communication/package.xml
+[2.098s] Invoked command in '/home/arifin/iris_fp1_ws/build/communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arifin/iris_fp1_ws/build/communication
