@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000195] (-) JobUnselected: {'identifier': 'autonomous_vehicle_nosecurity'}
+[0.000338] (-) JobUnselected: {'identifier': 'autonomous_vehicle_nosecurity'}
+[0.000352] (-) JobUnselected: {'identifier': 'autonomous_vehicle_project'}
+[0.000362] (-) JobUnselected: {'identifier': 'autonomous_vehicle_project'}
+[0.000371] (-) JobUnselected: {'identifier': 'autonomous_vehicle_simple'}
+[0.000379] (-) JobUnselected: {'identifier': 'autonomous_vehicle_simple'}
+[0.000387] (-) JobUnselected: {'identifier': 'autonomous_vehicle_teb'}
+[0.000393] (-) JobUnselected: {'identifier': 'autonomous_vehicle_teb'}
+[0.000401] (-) JobUnselected: {'identifier': 'avisengine_environment'}
+[0.000408] (-) JobUnselected: {'identifier': 'avisengine_environment'}
+[0.000416] (-) JobUnselected: {'identifier': 'avisengine_resources'}
+[0.000424] (-) JobUnselected: {'identifier': 'avisengine_resources'}
+[0.000430] (-) JobUnselected: {'identifier': 'can_sim_tc'}
+[0.000438] (-) JobUnselected: {'identifier': 'can_sim_tc'}
+[0.000445] (-) JobUnselected: {'identifier': 'catvehicle'}
+[0.000452] (-) JobUnselected: {'identifier': 'catvehicle'}
+[0.000460] (-) JobUnselected: {'identifier': 'catvehicle_gazebo'}
+[0.000467] (-) JobUnselected: {'identifier': 'catvehicle_gazebo'}
+[0.000474] (-) JobUnselected: {'identifier': 'catvehicle_gps_action'}
+[0.000481] (-) JobUnselected: {'identifier': 'catvehicle_gps_action'}
+[0.000489] (-) JobUnselected: {'identifier': 'catvehicle_tests'}
+[0.000496] (-) JobUnselected: {'identifier': 'catvehicle_tests'}
+[0.000503] (-) JobUnselected: {'identifier': 'cmdvel2gazebo'}
+[0.000510] (-) JobUnselected: {'identifier': 'cmdvel2gazebo'}
+[0.000518] (-) JobUnselected: {'identifier': 'communication'}
+[0.000525] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.000532] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.000539] (-) JobUnselected: {'identifier': 'dataspeed_can'}
+[0.000547] (-) JobUnselected: {'identifier': 'dataspeed_can'}
+[0.000554] (-) JobUnselected: {'identifier': 'dataspeed_can_msg_filters'}
+[0.000571] (-) JobUnselected: {'identifier': 'dataspeed_can_msg_filters'}
+[0.000581] (-) JobUnselected: {'identifier': 'dataspeed_can_tools'}
+[0.000590] (-) JobUnselected: {'identifier': 'dataspeed_can_tools'}
+[0.000601] (-) JobUnselected: {'identifier': 'dataspeed_can_usb'}
+[0.000612] (-) JobUnselected: {'identifier': 'dataspeed_can_usb'}
+[0.000786] (-) JobUnselected: {'identifier': 'dbw_mkz'}
+[0.000845] (-) JobUnselected: {'identifier': 'dbw_mkz'}
+[0.000864] (-) JobUnselected: {'identifier': 'dbw_mkz_can'}
+[0.000875] (-) JobUnselected: {'identifier': 'dbw_mkz_can'}
+[0.000884] (-) JobUnselected: {'identifier': 'dbw_mkz_description'}
+[0.000891] (-) JobUnselected: {'identifier': 'dbw_mkz_description'}
+[0.000899] (-) JobUnselected: {'identifier': 'dbw_mkz_gazebo'}
+[0.000906] (-) JobUnselected: {'identifier': 'dbw_mkz_gazebo'}
+[0.000914] (-) JobUnselected: {'identifier': 'dbw_mkz_gui'}
+[0.000921] (-) JobUnselected: {'identifier': 'dbw_mkz_gui'}
+[0.000928] (-) JobUnselected: {'identifier': 'dbw_mkz_joystick_demo'}
+[0.000936] (-) JobUnselected: {'identifier': 'dbw_mkz_joystick_demo'}
+[0.000943] (-) JobUnselected: {'identifier': 'dbw_mkz_msgs'}
+[0.000951] (-) JobUnselected: {'identifier': 'dbw_mkz_msgs'}
+[0.000958] (-) JobUnselected: {'identifier': 'drcsim_model_resources'}
+[0.000966] (-) JobUnselected: {'identifier': 'drcsim_model_resources'}
+[0.000973] (-) JobUnselected: {'identifier': 'example_pkg'}
+[0.000980] (-) JobUnselected: {'identifier': 'example_pkg'}
+[0.000987] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.000994] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.001002] (-) JobUnselected: {'identifier': 'lusb'}
+[0.001010] (-) JobUnselected: {'identifier': 'lusb'}
+[0.001019] (-) JobUnselected: {'identifier': 'obstaclestopper'}
+[0.001029] (-) JobUnselected: {'identifier': 'obstaclestopper'}
+[0.001037] (-) JobUnselected: {'identifier': 'rviz_satellite'}
+[0.001045] (-) JobUnselected: {'identifier': 'rviz_satellite'}
+[0.001052] (-) JobUnselected: {'identifier': 'sicktoolbox'}
+[0.001059] (-) JobUnselected: {'identifier': 'sicktoolbox'}
+[0.001076] (-) JobUnselected: {'identifier': 'sicktoolbox_wrapper'}
+[0.001084] (-) JobUnselected: {'identifier': 'sicktoolbox_wrapper'}
+[0.001091] (-) JobUnselected: {'identifier': 'stepvel'}
+[0.001098] (-) JobUnselected: {'identifier': 'stepvel'}
+[0.001105] (-) JobUnselected: {'identifier': 'teb_navigation_demo'}
+[0.001113] (-) JobUnselected: {'identifier': 'teb_navigation_demo'}
+[0.001120] (-) JobUnselected: {'identifier': 'vision'}
+[0.001130] (master) JobQueued: {'identifier': 'master', 'dependencies': OrderedDict()}
+[0.001143] (master) JobStarted: {'identifier': 'master'}
+[0.008336] (master) JobProgress: {'identifier': 'master', 'progress': 'cmake'}
+[0.009077] (master) JobProgress: {'identifier': 'master', 'progress': 'build'}
+[0.009730] (master) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arifin/iris_fp1_ws/build/master', '--', '-j12', '-l12'], 'cwd': '/home/arifin/iris_fp1_ws/build/master', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arifin', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/arifin', 'OLDPWD': '/home/arifin/iris_fp1_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3138', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arifin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arifin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/arifin-LOQ-15IAX9:@/tmp/.ICE-unix/3093,unix/arifin-LOQ-15IAX9:/tmp/.ICE-unix/3093', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/66b15153_cc97_4bd1_bfd3_3ebb4e48112e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install/master:/home/arifin/iris_fp1_ws/install/communication:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arifin/iris_fp1_ws/build/master', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install/master:/home/arifin/iris_fp1_ws/install/communication:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.036348] (master) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099748] (-) TimerEvent: {}
+[0.200070] (-) TimerEvent: {}
+[0.233215] (master) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.253643] (master) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.260929] (master) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.269791] (master) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.280219] (master) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300162] (-) TimerEvent: {}
+[0.330565] (master) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.331756] (master) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.392434] (master) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.401214] (-) TimerEvent: {}
+[0.473390] (master) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.501340] (-) TimerEvent: {}
+[0.547719] (master) StderrLine: {'line': b"Error parsing '/home/arifin/iris_fp1_ws/src/master/package.xml':\n"}
+[0.601394] (-) TimerEvent: {}
+[0.701640] (-) TimerEvent: {}
+[0.801886] (-) TimerEvent: {}
+[0.902141] (-) TimerEvent: {}
+[1.002391] (-) TimerEvent: {}
+[1.102650] (-) TimerEvent: {}
+[1.202976] (-) TimerEvent: {}
+[1.303234] (-) TimerEvent: {}
+[1.403500] (-) TimerEvent: {}
+[1.503765] (-) TimerEvent: {}
+[1.604110] (-) TimerEvent: {}
+[1.704440] (-) TimerEvent: {}
+[1.804795] (-) TimerEvent: {}
+[1.905079] (-) TimerEvent: {}
+[2.005384] (-) TimerEvent: {}
+[2.105802] (-) TimerEvent: {}
+[2.206207] (-) TimerEvent: {}
+[2.254635] (master) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.254865] (master) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[2.254920] (master) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[2.254964] (master) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^\n'}
+[2.255002] (master) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/minidom.py", line 1995, in parseString\n'}
+[2.255112] (master) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[2.255151] (master) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[2.255188] (master) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString\n'}
+[2.255265] (master) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[2.255331] (master) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[2.255374] (master) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString\n'}
+[2.255446] (master) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[2.255533] (master) StderrLine: {'line': b'xml.parsers.expat.ExpatError: XML or text declaration not at start of entity: line 2, column 0\n'}
+[2.255607] (master) StderrLine: {'line': b'\n'}
+[2.255676] (master) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[2.255723] (master) StderrLine: {'line': b'\n'}
+[2.255761] (master) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.255797] (master) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[2.255836] (master) StderrLine: {'line': b'    main()\n'}
+[2.255871] (master) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[2.255909] (master) StderrLine: {'line': b'    raise e\n'}
+[2.255946] (master) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[2.255984] (master) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[2.256021] (master) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^\n'}
+[2.256059] (master) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[2.256127] (master) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[2.256191] (master) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/arifin/iris_fp1_ws/src/master/package.xml':\n"}
+[2.256229] (master) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[2.256265] (master) StderrLine: {'line': b'XML or text declaration not at start of entity: line 2, column 0\n'}
+[2.296362] (master) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[2.296518] (master) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[2.296570] (master) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[2.296615] (master) StderrLine: {'line': b'  /home/arifin/iris_fp1_ws/src/master/package.xml\n'}
+[2.296665] (master) StderrLine: {'line': b'  /home/arifin/iris_fp1_ws/build/master/ament_cmake_core/package.cmake)\n'}
+[2.296739] (master) StderrLine: {'line': b'  returned error code 1\n'}
+[2.296780] (master) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.296839] (master) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[2.296896] (master) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[2.296953] (master) StderrLine: {'line': b'  CMakeLists.txt:30 (ament_lint_auto_find_test_dependencies)\n'}
+[2.296994] (master) StderrLine: {'line': b'\n'}
+[2.297037] (master) StderrLine: {'line': b'\x1b[0m\n'}
+[2.297076] (master) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.304616] (master) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[2.306273] (master) CommandEnded: {'returncode': 2}
+[2.306540] (-) TimerEvent: {}
+[2.306637] (master) JobEnded: {'identifier': 'master', 'rc': 2}
+[2.316837] (-) EventReactorShutdown: {}

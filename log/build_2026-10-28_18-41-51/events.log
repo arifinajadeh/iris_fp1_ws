@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.000331] (-) JobUnselected: {'identifier': 'autonomous_vehicle_nosecurity'}
+[0.000558] (-) JobUnselected: {'identifier': 'autonomous_vehicle_nosecurity'}
+[0.000684] (-) JobUnselected: {'identifier': 'autonomous_vehicle_project'}
+[0.000818] (-) JobUnselected: {'identifier': 'autonomous_vehicle_project'}
+[0.000879] (-) JobUnselected: {'identifier': 'autonomous_vehicle_simple'}
+[0.000911] (-) JobUnselected: {'identifier': 'autonomous_vehicle_simple'}
+[0.001057] (-) JobUnselected: {'identifier': 'autonomous_vehicle_teb'}
+[0.001085] (-) JobUnselected: {'identifier': 'autonomous_vehicle_teb'}
+[0.001097] (-) JobUnselected: {'identifier': 'avisengine_environment'}
+[0.001109] (-) JobUnselected: {'identifier': 'avisengine_environment'}
+[0.001117] (-) JobUnselected: {'identifier': 'avisengine_resources'}
+[0.001125] (-) JobUnselected: {'identifier': 'avisengine_resources'}
+[0.001133] (-) JobUnselected: {'identifier': 'can_sim_tc'}
+[0.001141] (-) JobUnselected: {'identifier': 'can_sim_tc'}
+[0.001148] (-) JobUnselected: {'identifier': 'catvehicle'}
+[0.001156] (-) JobUnselected: {'identifier': 'catvehicle'}
+[0.001162] (-) JobUnselected: {'identifier': 'catvehicle_gazebo'}
+[0.001171] (-) JobUnselected: {'identifier': 'catvehicle_gazebo'}
+[0.001177] (-) JobUnselected: {'identifier': 'catvehicle_gps_action'}
+[0.001185] (-) JobUnselected: {'identifier': 'catvehicle_gps_action'}
+[0.001192] (-) JobUnselected: {'identifier': 'catvehicle_tests'}
+[0.001199] (-) JobUnselected: {'identifier': 'catvehicle_tests'}
+[0.001206] (-) JobUnselected: {'identifier': 'cmdvel2gazebo'}
+[0.001214] (-) JobUnselected: {'identifier': 'cmdvel2gazebo'}
+[0.001221] (-) JobUnselected: {'identifier': 'communication'}
+[0.001229] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.001238] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.001245] (-) JobUnselected: {'identifier': 'dataspeed_can'}
+[0.001253] (-) JobUnselected: {'identifier': 'dataspeed_can'}
+[0.001261] (-) JobUnselected: {'identifier': 'dataspeed_can_msg_filters'}
+[0.001268] (-) JobUnselected: {'identifier': 'dataspeed_can_msg_filters'}
+[0.001276] (-) JobUnselected: {'identifier': 'dataspeed_can_tools'}
+[0.001284] (-) JobUnselected: {'identifier': 'dataspeed_can_tools'}
+[0.001293] (-) JobUnselected: {'identifier': 'dataspeed_can_usb'}
+[0.001301] (-) JobUnselected: {'identifier': 'dataspeed_can_usb'}
+[0.001309] (-) JobUnselected: {'identifier': 'dbw_mkz'}
+[0.001322] (-) JobUnselected: {'identifier': 'dbw_mkz'}
+[0.001329] (-) JobUnselected: {'identifier': 'dbw_mkz_can'}
+[0.001337] (-) JobUnselected: {'identifier': 'dbw_mkz_can'}
+[0.001345] (-) JobUnselected: {'identifier': 'dbw_mkz_description'}
+[0.001374] (-) JobUnselected: {'identifier': 'dbw_mkz_description'}
+[0.001382] (-) JobUnselected: {'identifier': 'dbw_mkz_gazebo'}
+[0.001390] (-) JobUnselected: {'identifier': 'dbw_mkz_gazebo'}
+[0.001398] (-) JobUnselected: {'identifier': 'dbw_mkz_gui'}
+[0.001405] (-) JobUnselected: {'identifier': 'dbw_mkz_gui'}
+[0.001414] (-) JobUnselected: {'identifier': 'dbw_mkz_joystick_demo'}
+[0.001422] (-) JobUnselected: {'identifier': 'dbw_mkz_joystick_demo'}
+[0.001429] (-) JobUnselected: {'identifier': 'dbw_mkz_msgs'}
+[0.001437] (-) JobUnselected: {'identifier': 'dbw_mkz_msgs'}
+[0.001445] (-) JobUnselected: {'identifier': 'drcsim_model_resources'}
+[0.001452] (-) JobUnselected: {'identifier': 'drcsim_model_resources'}
+[0.001459] (-) JobUnselected: {'identifier': 'example_pkg'}
+[0.001466] (-) JobUnselected: {'identifier': 'example_pkg'}
+[0.001474] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.001482] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.001490] (-) JobUnselected: {'identifier': 'lusb'}
+[0.001497] (-) JobUnselected: {'identifier': 'lusb'}
+[0.001505] (-) JobUnselected: {'identifier': 'obstaclestopper'}
+[0.001513] (-) JobUnselected: {'identifier': 'obstaclestopper'}
+[0.001521] (-) JobUnselected: {'identifier': 'rviz_satellite'}
+[0.001528] (-) JobUnselected: {'identifier': 'rviz_satellite'}
+[0.001536] (-) JobUnselected: {'identifier': 'sicktoolbox'}
+[0.001543] (-) JobUnselected: {'identifier': 'sicktoolbox'}
+[0.001565] (-) JobUnselected: {'identifier': 'sicktoolbox_wrapper'}
+[0.001573] (-) JobUnselected: {'identifier': 'sicktoolbox_wrapper'}
+[0.001581] (-) JobUnselected: {'identifier': 'stepvel'}
+[0.001589] (-) JobUnselected: {'identifier': 'stepvel'}
+[0.001601] (-) JobUnselected: {'identifier': 'teb_navigation_demo'}
+[0.001609] (-) JobUnselected: {'identifier': 'teb_navigation_demo'}
+[0.001616] (-) JobUnselected: {'identifier': 'vision'}
+[0.001627] (master) JobQueued: {'identifier': 'master', 'dependencies': OrderedDict()}
+[0.001641] (master) JobStarted: {'identifier': 'master'}
+[0.009548] (master) JobProgress: {'identifier': 'master', 'progress': 'cmake'}
+[0.009954] (master) JobProgress: {'identifier': 'master', 'progress': 'build'}
+[0.010562] (master) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arifin/iris_fp1_ws/build/master', '--', '-j12', '-l12'], 'cwd': '/home/arifin/iris_fp1_ws/build/master', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arifin', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/arifin', 'OLDPWD': '/home/arifin/iris_fp1_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3138', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arifin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arifin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/arifin-LOQ-15IAX9:@/tmp/.ICE-unix/3093,unix/arifin-LOQ-15IAX9:/tmp/.ICE-unix/3093', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/66b15153_cc97_4bd1_bfd3_3ebb4e48112e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install/master:/home/arifin/iris_fp1_ws/install/communication:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arifin/iris_fp1_ws/build/master', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install/master:/home/arifin/iris_fp1_ws/install/communication:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.035549] (master) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099736] (-) TimerEvent: {}
+[0.199981] (-) TimerEvent: {}
+[0.225947] (master) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.249154] (master) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.257128] (master) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.265834] (master) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.276218] (master) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300059] (-) TimerEvent: {}
+[0.326071] (master) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.327062] (master) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.384926] (master) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400138] (-) TimerEvent: {}
+[0.445567] (master) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.500224] (-) TimerEvent: {}
+[0.540503] (master) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.540672] (master) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.540726] (master) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.541509] (master) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.542321] (master) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.542491] (master) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.542820] (master) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.544211] (master) StdoutLine: {'line': b'-- Configuring done (0.5s)\n'}
+[0.562324] (master) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.566216] (master) StdoutLine: {'line': b'-- Build files have been written to: /home/arifin/iris_fp1_ws/build/master\n'}
+[0.600357] (-) TimerEvent: {}
+[0.615501] (master) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o\x1b[0m\n'}
+[0.700450] (-) TimerEvent: {}
+[0.800691] (-) TimerEvent: {}
+[0.900985] (-) TimerEvent: {}
+[1.001294] (-) TimerEvent: {}
+[1.101544] (-) TimerEvent: {}
+[1.201781] (-) TimerEvent: {}
+[1.302041] (-) TimerEvent: {}
+[1.402368] (-) TimerEvent: {}
+[1.502654] (-) TimerEvent: {}
+[1.603035] (-) TimerEvent: {}
+[1.703271] (-) TimerEvent: {}
+[1.803473] (-) TimerEvent: {}
+[1.903700] (-) TimerEvent: {}
+[2.004011] (-) TimerEvent: {}
+[2.104271] (-) TimerEvent: {}
+[2.204508] (-) TimerEvent: {}
+[2.304733] (-) TimerEvent: {}
+[2.404971] (-) TimerEvent: {}
+[2.505211] (-) TimerEvent: {}
+[2.605457] (-) TimerEvent: {}
+[2.705697] (-) TimerEvent: {}
+[2.805959] (-) TimerEvent: {}
+[2.906190] (-) TimerEvent: {}
+[3.006424] (-) TimerEvent: {}
+[3.106650] (-) TimerEvent: {}
+[3.206877] (-) TimerEvent: {}
+[3.307118] (-) TimerEvent: {}
+[3.407401] (-) TimerEvent: {}
+[3.507719] (-) TimerEvent: {}
+[3.529555] (master) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable master_node\x1b[0m\n'}
+[3.607821] (-) TimerEvent: {}
+[3.666047] (master) StdoutLine: {'line': b'[100%] Built target master_node\n'}
+[3.682634] (master) CommandEnded: {'returncode': 0}
+[3.683667] (master) JobProgress: {'identifier': 'master', 'progress': 'install'}
+[3.696423] (master) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arifin/iris_fp1_ws/build/master'], 'cwd': '/home/arifin/iris_fp1_ws/build/master', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arifin', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/arifin', 'OLDPWD': '/home/arifin/iris_fp1_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3138', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arifin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arifin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/arifin-LOQ-15IAX9:@/tmp/.ICE-unix/3093,unix/arifin-LOQ-15IAX9:/tmp/.ICE-unix/3093', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/66b15153_cc97_4bd1_bfd3_3ebb4e48112e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install/master:/home/arifin/iris_fp1_ws/install/communication:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arifin/iris_fp1_ws/build/master', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install/master:/home/arifin/iris_fp1_ws/install/communication:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.707971] (-) TimerEvent: {}
+[3.723778] (master) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.724096] (master) StdoutLine: {'line': b'-- Installing: /home/arifin/iris_fp1_ws/install/master/lib/master/master_node\n'}
+[3.724605] (master) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/arifin/iris_fp1_ws/install/master/lib/master/master_node" to ""\n'}
+[3.724724] (master) StdoutLine: {'line': b'-- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/src\n'}
+[3.724790] (master) StdoutLine: {'line': b'-- Installing: /home/arifin/iris_fp1_ws/install/master/share/master/src/kinematika.hpp\n'}
+[3.724872] (master) StdoutLine: {'line': b'-- Installing: /home/arifin/iris_fp1_ws/install/master/share/ament_index/resource_index/package_run_dependencies/master\n'}
+[3.724981] (master) StdoutLine: {'line': b'-- Installing: /home/arifin/iris_fp1_ws/install/master/share/ament_index/resource_index/parent_prefix_path/master\n'}
+[3.725164] (master) StdoutLine: {'line': b'-- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/environment/ament_prefix_path.sh\n'}
+[3.725384] (master) StdoutLine: {'line': b'-- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/environment/ament_prefix_path.dsv\n'}
+[3.725529] (master) StdoutLine: {'line': b'-- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/environment/path.sh\n'}
+[3.725639] (master) StdoutLine: {'line': b'-- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/environment/path.dsv\n'}
+[3.725747] (master) StdoutLine: {'line': b'-- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/local_setup.bash\n'}
+[3.725824] (master) StdoutLine: {'line': b'-- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/local_setup.sh\n'}
+[3.725898] (master) StdoutLine: {'line': b'-- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/local_setup.zsh\n'}
+[3.726785] (master) StdoutLine: {'line': b'-- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/local_setup.dsv\n'}
+[3.727100] (master) StdoutLine: {'line': b'-- Installing: /home/arifin/iris_fp1_ws/install/master/share/master/package.dsv\n'}
+[3.727474] (master) StdoutLine: {'line': b'-- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/ament_index/resource_index/packages/master\n'}
+[3.727832] (master) StdoutLine: {'line': b'-- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/cmake/masterConfig.cmake\n'}
+[3.728044] (master) StdoutLine: {'line': b'-- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/cmake/masterConfig-version.cmake\n'}
+[3.728312] (master) StdoutLine: {'line': b'-- Installing: /home/arifin/iris_fp1_ws/install/master/share/master/package.xml\n'}
+[3.731072] (master) CommandEnded: {'returncode': 0}
+[3.808153] (-) TimerEvent: {}
+[3.869616] (master) JobEnded: {'identifier': 'master', 'rc': 0}
+[3.871028] (-) EventReactorShutdown: {}
