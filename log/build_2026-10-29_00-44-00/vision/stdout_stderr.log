@@ -1,0 +1,17 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/bev_node.dir/src/bev_node.cpp.o[0m
+[01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:[m[K In member function ‘[01m[Kvoid BEVNode::[01;32m[KimageCallback[m[K(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:59:17:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kint h [2][m[K’
+   59 |             int [01;31m[Kh[m[K[2] = {0, 179}, s[2] = {0, 255}, v[2] = {0, 255};
+      |                 [01;31m[K^[m[K
+[01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:43:23:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kconst int h[m[K’
+   43 |             const int [01;36m[Kh[m[K = frame.rows;
+      |                       [01;36m[K^[m[K
+[01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:62:49:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst int[int][m[K’ for array subscript
+   62 |             createTrackbar("Hmin", "Control", &h[01;31m[K[[m[K0], 255);
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:66:49:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst int[int][m[K’ for array subscript
+   66 |             createTrackbar("Hmax", "Control", &h[01;31m[K[[m[K1], 255);
+      |                                                 [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/bev_node.dir/build.make:76: CMakeFiles/bev_node.dir/src/bev_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bev_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,33 @@
+[0.014s] Invoking command in '/home/arifin/iris_fp1_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/master -- -j12 -l12
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
+[2.969s] [100%] [32m[1mLinking CXX executable master_node[0m
+[3.103s] [100%] Built target master_node
+[3.116s] Invoked command in '/home/arifin/iris_fp1_ws/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/master -- -j12 -l12
+[3.130s] Invoking command in '/home/arifin/iris_fp1_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arifin/iris_fp1_ws/build/master
+[3.144s] -- Install configuration: ""
+[3.144s] -- Installing: /home/arifin/iris_fp1_ws/install/master/lib/master/master_node
+[3.145s] -- Set non-toolchain portion of runtime path of "/home/arifin/iris_fp1_ws/install/master/lib/master/master_node" to ""
+[3.145s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/src
+[3.145s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/src/kinematika.hpp
+[3.146s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/src/build
+[3.146s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/src/install
+[3.146s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/src/log
+[3.146s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/src/log/latest_build
+[3.146s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/src/log/latest
+[3.146s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/src/log/build_2026-10-28_22-27-43
+[3.146s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/ament_index/resource_index/package_run_dependencies/master
+[3.147s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/ament_index/resource_index/parent_prefix_path/master
+[3.147s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/environment/ament_prefix_path.sh
+[3.147s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/environment/ament_prefix_path.dsv
+[3.147s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/environment/path.sh
+[3.147s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/environment/path.dsv
+[3.148s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/local_setup.bash
+[3.148s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/local_setup.sh
+[3.148s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/local_setup.zsh
+[3.148s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/local_setup.dsv
+[3.148s] -- Installing: /home/arifin/iris_fp1_ws/install/master/share/master/package.dsv
+[3.148s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/ament_index/resource_index/packages/master
+[3.148s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/cmake/masterConfig.cmake
+[3.149s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/cmake/masterConfig-version.cmake
+[3.149s] -- Up-to-date: /home/arifin/iris_fp1_ws/install/master/share/master/package.xml
+[3.149s] Invoked command in '/home/arifin/iris_fp1_ws/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arifin/iris_fp1_ws/build/master

@@ -1,0 +1,19 @@
+[0.014s] Invoking command in '/home/arifin/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/vision -- -j12 -l12
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/bev_node.dir/src/bev_node.cpp.o[0m
+[3.145s] [01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:[m[K In lambda function:
+[3.145s] [01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:33:41:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(int)h[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[3.145s]    33 |                             {w * 0.20f, [01;35m[Kh[m[K},          // kiri bawah BEV
+[3.145s]       |                                         [01;35m[K^[m[K
+[3.145s] [01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:34:41:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(int)h[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[3.145s]    34 |                             {w * 0.80f, [01;35m[Kh[m[K},          // kanan bawah BEV
+[3.145s]       |                                         [01;35m[K^[m[K
+[3.152s] [01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:40:53:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrc[m[K’ was not declared in this scope
+[3.153s]    40 |                         cv::getPerspectiveTransform([01;31m[Ksrc[m[K, dst);
+[3.153s]       |                                                     [01;31m[K^~~[m[K
+[3.159s] [01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:40:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kdst[m[K’ was not declared in this scope
+[3.159s]    40 |                         cv::getPerspectiveTransform(src, [01;31m[Kdst[m[K);
+[3.160s]       |                                                          [01;31m[K^~~[m[K
+[5.756s] gmake[2]: *** [CMakeFiles/bev_node.dir/build.make:76: CMakeFiles/bev_node.dir/src/bev_node.cpp.o] Error 1
+[5.756s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bev_node.dir/all] Error 2
+[5.757s] gmake: *** [Makefile:146: all] Error 2
+[5.760s] Invoked command in '/home/arifin/iris_fp1_ws/build/vision' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/vision -- -j12 -l12

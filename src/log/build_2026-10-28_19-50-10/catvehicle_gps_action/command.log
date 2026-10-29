@@ -1,0 +1,1 @@
+Invoking command in '/home/arifin/iris_fp1_ws/src/build/catvehicle_gps_action': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arifin/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/catvehicle_basics/catvehicle_gps_action -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/arifin/iris_fp1_ws/src/install/catvehicle_gps_action

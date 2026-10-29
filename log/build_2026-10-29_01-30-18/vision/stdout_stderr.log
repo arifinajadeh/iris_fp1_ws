@@ -1,0 +1,14 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/bev_node.dir/src/bev_node.cpp.o[0m
+[01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:[m[K In member function ‘[01m[Kvoid BEVNode::[01;32m[KimageCallback[m[K(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:86:27:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""_[m[K’
+   86 |                 Scalar(0, [01;31m[K18_[m[K, 0),
+      |                           [01;31m[K^~~[m[K
+[01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:58:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   58 |             int [01;35m[Kw[m[K = frame.cols;
+      |                 [01;35m[K^[m[K
+[01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:59:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kheight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   59 |             int [01;35m[Kheight[m[K = frame.rows;
+      |                 [01;35m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/bev_node.dir/build.make:76: CMakeFiles/bev_node.dir/src/bev_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bev_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

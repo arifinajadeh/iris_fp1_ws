@@ -1,0 +1,40 @@
+[0.042s] Invoking command in '/home/arifin/iris_fp1_ws/src/build/catvehicle_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arifin/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/catvehicle_basics/catvehicle_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/arifin/iris_fp1_ws/src/install/catvehicle_gazebo
+[0.081s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.083s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.085s]   CMake.
+[0.085s] 
+[0.085s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.085s]   CMake that the project does not need compatibility with older versions.
+[0.086s] 
+[0.087s] [0m
+[0.142s] -- The C compiler identification is GNU 13.3.0
+[0.274s] -- The CXX compiler identification is GNU 13.3.0
+[0.320s] -- Detecting C compiler ABI info
+[0.490s] -- Detecting C compiler ABI info - done
+[0.504s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.506s] -- Detecting C compile features
+[0.507s] -- Detecting C compile features - done
+[0.544s] -- Detecting CXX compiler ABI info
+[0.751s] -- Detecting CXX compiler ABI info - done
+[0.764s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.765s] -- Detecting CXX compile features
+[0.766s] -- Detecting CXX compile features - done
+[0.786s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[0.787s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.787s] -- Configuring incomplete, errors occurred!
+[0.787s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.787s]   CMake did not find one.
+[0.787s] 
+[0.787s]   Could not find a package configuration file provided by "catkin" with any
+[0.787s]   of the following names:
+[0.787s] 
+[0.787s]     catkinConfig.cmake
+[0.787s]     catkin-config.cmake
+[0.788s] 
+[0.788s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.788s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.788s]   provides a separate development package or SDK, be sure it has been
+[0.788s]   installed.
+[0.788s] 
+[0.788s] [0m
+[0.800s] Invoked command in '/home/arifin/iris_fp1_ws/src/build/catvehicle_gazebo' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arifin/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/catvehicle_basics/catvehicle_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/arifin/iris_fp1_ws/src/install/catvehicle_gazebo

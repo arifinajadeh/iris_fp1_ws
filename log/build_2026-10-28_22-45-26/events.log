@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.000748] (-) JobUnselected: {'identifier': 'communication'}
+[0.000888] (-) JobUnselected: {'identifier': 'master'}
+[0.000932] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.000953] (vision) JobStarted: {'identifier': 'vision'}
+[0.009585] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.010003] (vision) Command: {'cmd': ['/usr/bin/cmake', '/home/arifin/iris_fp1_ws/src/vision', '-DCMAKE_INSTALL_PREFIX=/home/arifin/iris_fp1_ws/install/vision'], 'cwd': '/home/arifin/iris_fp1_ws/build/vision', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arifin', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/arifin', 'OLDPWD': '/home/arifin/iris_fp1_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3254', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arifin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arifin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/arifin-LOQ-15IAX9:@/tmp/.ICE-unix/3093,unix/arifin-LOQ-15IAX9:/tmp/.ICE-unix/3093', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ef1a5fcf_2c3c_4a9c_8943_9edb9fb459b7', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arifin/iris_fp1_ws/build/vision', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.017897] (vision) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.018253] (vision) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.018329] (vision) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.018378] (vision) StderrLine: {'line': b'  code such as\n'}
+[0.018428] (vision) StderrLine: {'line': b'\n'}
+[0.018479] (vision) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.018534] (vision) StderrLine: {'line': b'\n'}
+[0.018613] (vision) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.018692] (vision) StderrLine: {'line': b'\n'}
+[0.018765] (vision) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.018841] (vision) StderrLine: {'line': b'  line.\n'}
+[0.018909] (vision) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.018974] (vision) StderrLine: {'line': b'\x1b[0m\n'}
+[0.019051] (vision) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.019125] (vision) StderrLine: {'line': b'  cmake_minimum_required() should be called prior to this top-level project()\n'}
+[0.019208] (vision) StderrLine: {'line': b'  call.  Please see the cmake-commands(7) manual for usage documentation of\n'}
+[0.019285] (vision) StderrLine: {'line': b'  both commands.\n'}
+[0.019332] (vision) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.019382] (vision) StderrLine: {'line': b'\x1b[0m\n'}
+[0.062455] (vision) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099761] (-) TimerEvent: {}
+[0.115510] (vision) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.133612] (vision) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199866] (-) TimerEvent: {}
+[0.215964] (vision) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.225694] (vision) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.226041] (vision) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.226321] (vision) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.236216] (vision) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300050] (-) TimerEvent: {}
+[0.332391] (vision) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.342144] (vision) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.342345] (vision) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.342752] (vision) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.344345] (vision) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.400139] (-) TimerEvent: {}
+[0.477715] (vision) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.500241] (-) TimerEvent: {}
+[0.555636] (vision) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):\n'}
+[0.555790] (vision) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[0.555841] (vision) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[0.555887] (vision) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.555928] (vision) StderrLine: {'line': b'\n'}
+[0.555970] (vision) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[0.556011] (vision) StderrLine: {'line': b'\n'}
+[0.556054] (vision) StderrLine: {'line': b'    "TRUE"\n'}
+[0.556099] (vision) StderrLine: {'line': b'\n'}
+[0.556139] (vision) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.556179] (vision) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.556222] (vision) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.556263] (vision) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.556320] (vision) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.556381] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)\n'}
+[0.556436] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.556495] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.556539] (vision) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.556578] (vision) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.556615] (vision) StderrLine: {'line': b'\x1b[0m\n'}
+[0.556652] (vision) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):\n'}
+[0.556695] (vision) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[0.556733] (vision) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[0.556771] (vision) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.556807] (vision) StderrLine: {'line': b'\n'}
+[0.556864] (vision) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[0.556937] (vision) StderrLine: {'line': b'\n'}
+[0.556999] (vision) StderrLine: {'line': b'    "TRUE"\n'}
+[0.557048] (vision) StderrLine: {'line': b'\n'}
+[0.557124] (vision) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.557172] (vision) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.557213] (vision) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.557251] (vision) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.557303] (vision) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.557365] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)\n'}
+[0.557437] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.557493] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.557542] (vision) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.557580] (vision) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.557618] (vision) StderrLine: {'line': b'\x1b[0m\n'}
+[0.560030] (vision) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):\n'}
+[0.560417] (vision) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[0.560793] (vision) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[0.560844] (vision) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.560887] (vision) StderrLine: {'line': b'\n'}
+[0.560930] (vision) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[0.560976] (vision) StderrLine: {'line': b'\n'}
+[0.561018] (vision) StderrLine: {'line': b'    "TRUE"\n'}
+[0.561061] (vision) StderrLine: {'line': b'\n'}
+[0.561111] (vision) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.561152] (vision) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.561194] (vision) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.561247] (vision) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.561290] (vision) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.561344] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)\n'}
+[0.561416] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.561483] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[0.561558] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.561630] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.561697] (vision) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.561768] (vision) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.561835] (vision) StderrLine: {'line': b'\x1b[0m\n'}
+[0.561902] (vision) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):\n'}
+[0.561969] (vision) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[0.562028] (vision) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[0.562080] (vision) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.562141] (vision) StderrLine: {'line': b'\n'}
+[0.562188] (vision) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[0.562236] (vision) StderrLine: {'line': b'\n'}
+[0.562295] (vision) StderrLine: {'line': b'    "TRUE"\n'}
+[0.562361] (vision) StderrLine: {'line': b'\n'}
+[0.562413] (vision) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.562454] (vision) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.562493] (vision) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.562531] (vision) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.562569] (vision) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.562609] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)\n'}
+[0.562648] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.562686] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[0.562739] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.562775] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.562811] (vision) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.562847] (vision) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.562897] (vision) StderrLine: {'line': b'\x1b[0m\n'}
+[0.569188] (vision) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):\n'}
+[0.569551] (vision) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[0.569674] (vision) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[0.569780] (vision) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.569881] (vision) StderrLine: {'line': b'\n'}
+[0.569976] (vision) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[0.570070] (vision) StderrLine: {'line': b'\n'}
+[0.570180] (vision) StderrLine: {'line': b'    "TRUE"\n'}
+[0.570296] (vision) StderrLine: {'line': b'\n'}
+[0.570416] (vision) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.570514] (vision) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.570612] (vision) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.570708] (vision) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.570816] (vision) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.570918] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)\n'}
+[0.571021] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.571127] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[0.571236] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.571354] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[0.571461] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.571559] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[0.571649] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.571739] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.571830] (vision) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.571918] (vision) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.572009] (vision) StderrLine: {'line': b'\x1b[0m\n'}
+[0.572107] (vision) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):\n'}
+[0.572203] (vision) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[0.572309] (vision) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[0.572418] (vision) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.572517] (vision) StderrLine: {'line': b'\n'}
+[0.572607] (vision) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[0.572708] (vision) StderrLine: {'line': b'\n'}
+[0.572797] (vision) StderrLine: {'line': b'    "TRUE"\n'}
+[0.572887] (vision) StderrLine: {'line': b'\n'}
+[0.573072] (vision) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.573192] (vision) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.573280] (vision) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.573363] (vision) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.573444] (vision) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.573529] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)\n'}
+[0.573618] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.573703] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[0.573786] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.573876] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[0.573962] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.574047] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[0.574142] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.574229] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.574318] (vision) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.574416] (vision) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.574513] (vision) StderrLine: {'line': b'\x1b[0m\n'}
+[0.601231] (-) TimerEvent: {}
+[0.604327] (vision) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.604969] (vision) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[0.605172] (vision) StderrLine: {'line': b'  Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake\n'}
+[0.605296] (vision) StderrLine: {'line': b'  --help-policy CMP0057" for policy details.  Use the cmake_policy command to\n'}
+[0.605433] (vision) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.605528] (vision) StderrLine: {'line': b'\n'}
+[0.607512] (vision) StderrLine: {'line': b'  IN_LIST will be interpreted as an operator when the policy is set to NEW.\n'}
+[0.607646] (vision) StderrLine: {'line': b'  Since the policy is not set the OLD behavior will be used.\n'}
+[0.607790] (vision) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.607901] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)\n'}
+[0.607995] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[0.608110] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.608651] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[0.609112] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.609648] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[0.609949] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.610153] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.610472] (vision) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.610742] (vision) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.611286] (vision) StderrLine: {'line': b'\x1b[0m\n'}
+[0.617227] (vision) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[0.617586] (vision) StderrLine: {'line': b'  if given arguments:\n'}
+[0.617658] (vision) StderrLine: {'line': b'\n'}
+[0.617717] (vision) StderrLine: {'line': b'    "NOT" "element" "IN_LIST" "rcutils_RECURSIVE_DEPENDENCIES"\n'}
+[0.617776] (vision) StderrLine: {'line': b'\n'}
+[0.617832] (vision) StderrLine: {'line': b'  Unknown arguments specified\n'}
+[0.617890] (vision) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.618282] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)\n'}
+[0.618356] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[0.618418] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.618480] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[0.618536] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.618593] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[0.618647] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.618701] (vision) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.618755] (vision) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.618809] (vision) StderrLine: {'line': b'\n'}
+[0.618864] (vision) StderrLine: {'line': b'\x1b[0m\n'}
+[0.618921] (vision) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[0.618978] (vision) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.619031] (vision) StderrLine: {'line': b'\n'}
+[0.619077] (vision) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.28)\n'}
+[0.619138] (vision) StderrLine: {'line': b'\n'}
+[0.619197] (vision) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.619255] (vision) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.621374] (vision) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.621446] (vision) StderrLine: {'line': b'\n'}
+[0.621506] (vision) StderrLine: {'line': b'\x1b[0m\n'}
+[0.621564] (vision) CommandEnded: {'returncode': 1}
+[0.641538] (vision) JobEnded: {'identifier': 'vision', 'rc': 1}
+[0.652044] (-) EventReactorShutdown: {}

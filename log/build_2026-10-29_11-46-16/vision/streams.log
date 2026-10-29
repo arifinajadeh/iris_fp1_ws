@@ -1,0 +1,41 @@
+[0.029s] Invoking command in '/home/arifin/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arifin/iris_fp1_ws/src/vision -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arifin/iris_fp1_ws/install/vision
+[0.089s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.530s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.558s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.625s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.645s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.671s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.705s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.861s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.868s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.046s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.242s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.370s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.561s] -- Configuring done (1.5s)
+[1.597s] -- Generating done (0.0s)
+[1.605s] -- Build files have been written to: /home/arifin/iris_fp1_ws/build/vision
+[1.618s] Invoked command in '/home/arifin/iris_fp1_ws/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arifin/iris_fp1_ws/src/vision -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arifin/iris_fp1_ws/install/vision
+[1.621s] Invoking command in '/home/arifin/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/vision -- -j12 -l12
+[1.724s] [ 50%] [32m[1mLinking CXX executable bev_node[0m
+[2.791s] [100%] Built target bev_node
+[2.819s] Invoked command in '/home/arifin/iris_fp1_ws/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/vision -- -j12 -l12
+[2.848s] Invoking command in '/home/arifin/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arifin/iris_fp1_ws/build/vision
+[2.874s] -- Install configuration: ""
+[2.876s] -- Execute custom install script
+[2.877s] -- Symlinking: /home/arifin/iris_fp1_ws/install/vision/lib/vision/bev_node
+[2.903s] -- Symlinking: /home/arifin/iris_fp1_ws/install/vision/share/ament_index/resource_index/package_run_dependencies/vision
+[2.924s] -- Symlinking: /home/arifin/iris_fp1_ws/install/vision/share/ament_index/resource_index/parent_prefix_path/vision
+[2.951s] -- Symlinking: /home/arifin/iris_fp1_ws/install/vision/share/vision/environment/ament_prefix_path.sh
+[2.975s] -- Symlinking: /home/arifin/iris_fp1_ws/install/vision/share/vision/environment/ament_prefix_path.dsv
+[2.988s] -- Symlinking: /home/arifin/iris_fp1_ws/install/vision/share/vision/environment/path.sh
+[2.999s] -- Symlinking: /home/arifin/iris_fp1_ws/install/vision/share/vision/environment/path.dsv
+[3.026s] -- Symlinking: /home/arifin/iris_fp1_ws/install/vision/share/vision/local_setup.bash
+[3.050s] -- Symlinking: /home/arifin/iris_fp1_ws/install/vision/share/vision/local_setup.sh
+[3.074s] -- Symlinking: /home/arifin/iris_fp1_ws/install/vision/share/vision/local_setup.zsh
+[3.093s] -- Symlinking: /home/arifin/iris_fp1_ws/install/vision/share/vision/local_setup.dsv
+[3.116s] -- Symlinking: /home/arifin/iris_fp1_ws/install/vision/share/vision/package.dsv
+[3.142s] -- Symlinking: /home/arifin/iris_fp1_ws/install/vision/share/ament_index/resource_index/packages/vision
+[3.160s] -- Symlinking: /home/arifin/iris_fp1_ws/install/vision/share/vision/cmake/visionConfig.cmake
+[3.183s] -- Symlinking: /home/arifin/iris_fp1_ws/install/vision/share/vision/cmake/visionConfig-version.cmake
+[3.208s] -- Symlinking: /home/arifin/iris_fp1_ws/install/vision/share/vision/package.xml
+[3.235s] Invoked command in '/home/arifin/iris_fp1_ws/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arifin/iris_fp1_ws/build/vision

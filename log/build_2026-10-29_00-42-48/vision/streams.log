@@ -1,0 +1,35 @@
+[0.018s] Invoking command in '/home/arifin/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/vision -- -j12 -l12
+[0.116s] [ 50%] [32mBuilding CXX object CMakeFiles/bev_node.dir/src/bev_node.cpp.o[0m
+[5.166s] [01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:[m[K In member function ‘[01m[Kvoid BEVNode::[01;32m[KimageCallback[m[K(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[5.166s] [01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:59:17:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kint h [2][m[K’
+[5.166s]    59 |             int [01;31m[Kh[m[K[2] = {0, 179}, s[2] = {0, 255}, v[2] = {0, 255};
+[5.166s]       |                 [01;31m[K^[m[K
+[5.167s] [01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:43:23:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kconst int h[m[K’
+[5.167s]    43 |             const int [01;36m[Kh[m[K = frame.rows;
+[5.167s]       |                       [01;36m[K^[m[K
+[5.167s] [01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:60:13:[m[K [01;31m[Kerror: [m[K‘[01m[KnamedWindow[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::namedWindow[m[K’?
+[5.168s]    60 |             [01;31m[KnamedWindow[m[K("Control:");
+[5.168s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[5.168s]       |             [32m[Kcv::namedWindow[m[K
+[5.168s] In file included from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:68[m[K,
+[5.168s]                  from [01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:11[m[K:
+[5.168s] [01m[K/usr/include/opencv4/opencv2/highgui.hpp:318:19:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::namedWindow[m[K’ declared here
+[5.168s]   318 | CV_EXPORTS_W void [01;36m[KnamedWindow[m[K(const String& winname, int flags = WINDOW_AUTOSIZE);
+[5.168s]       |                   [01;36m[K^~~~~~~~~~~[m[K
+[5.168s] [01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:62:49:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst int[int][m[K’ for array subscript
+[5.168s]    62 |             createTrackbar("Hmin", "Control", &h[01;31m[K[[m[K0], 255);
+[5.169s]       |                                                 [01;31m[K^[m[K
+[5.169s] [01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:62:13:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateTrackbar[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::createTrackbar[m[K’?
+[5.169s]    62 |             [01;31m[KcreateTrackbar[m[K("Hmin", "Control", &h[0], 255);
+[5.170s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.170s]       |             [32m[Kcv::createTrackbar[m[K
+[5.170s] [01m[K/usr/include/opencv4/opencv2/highgui.hpp:579:16:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::createTrackbar[m[K’ declared here
+[5.170s]   579 | CV_EXPORTS int [01;36m[KcreateTrackbar[m[K(const String& trackbarname, const String& winname,
+[5.170s]       |                [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.171s] [01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:66:49:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst int[int][m[K’ for array subscript
+[5.171s]    66 |             createTrackbar("Hmax", "Control", &h[01;31m[K[[m[K1], 255);
+[5.171s]       |                                                 [01;31m[K^[m[K
+[9.745s] gmake[2]: *** [CMakeFiles/bev_node.dir/build.make:76: CMakeFiles/bev_node.dir/src/bev_node.cpp.o] Error 1
+[9.746s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bev_node.dir/all] Error 2
+[9.746s] gmake: *** [Makefile:146: all] Error 2
+[9.749s] Invoked command in '/home/arifin/iris_fp1_ws/build/vision' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/vision -- -j12 -l12

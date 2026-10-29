@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/arifin/iris_fp1_ws/src/build/master
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/master_node.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/master_uninstall.dir/clean
+clean: CMakeFiles/master_node.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,6 +127,32 @@ master_uninstall: CMakeFiles/master_uninstall.dir/rule
 CMakeFiles/master_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_uninstall.dir/build.make CMakeFiles/master_uninstall.dir/clean
 .PHONY : CMakeFiles/master_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/master_node.dir
+
+# All Build rule for target.
+CMakeFiles/master_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_node.dir/build.make CMakeFiles/master_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_node.dir/build.make CMakeFiles/master_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arifin/iris_fp1_ws/src/build/master/CMakeFiles --progress-num=1,2 "Built target master_node"
+.PHONY : CMakeFiles/master_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/master_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arifin/iris_fp1_ws/src/build/master/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/master_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arifin/iris_fp1_ws/src/build/master/CMakeFiles 0
+.PHONY : CMakeFiles/master_node.dir/rule
+
+# Convenience name for target.
+master_node: CMakeFiles/master_node.dir/rule
+.PHONY : master_node
+
+# clean rule for target.
+CMakeFiles/master_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_node.dir/build.make CMakeFiles/master_node.dir/clean
+.PHONY : CMakeFiles/master_node.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

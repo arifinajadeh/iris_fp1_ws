@@ -1,5 +1,7 @@
 /home/arifin/iris_fp1_ws/install/master/lib/master/master_node
 /home/arifin/iris_fp1_ws/install/master/share/master/src/kinematika.hpp
+/home/arifin/iris_fp1_ws/install/master/share/master/src/log/latest_build
+/home/arifin/iris_fp1_ws/install/master/share/master/src/log/latest
 /home/arifin/iris_fp1_ws/install/master/share/ament_index/resource_index/package_run_dependencies/master
 /home/arifin/iris_fp1_ws/install/master/share/ament_index/resource_index/parent_prefix_path/master
 /home/arifin/iris_fp1_ws/install/master/share/master/environment/ament_prefix_path.sh

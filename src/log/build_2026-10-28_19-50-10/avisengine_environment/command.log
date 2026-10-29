@@ -1,0 +1,1 @@
+Invoking command in '/home/arifin/iris_fp1_ws/src/build/avisengine_environment': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arifin/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/avisengine_environment -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/arifin/iris_fp1_ws/src/install/avisengine_environment

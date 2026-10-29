@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-  <!-- Launch talker (publisher) node -->
-  <node pkg="udp_receiver" exec="receiver" name="UDPReceiver" output="screen"></node>
-
-  <!-- Launch listener (subscriber) node -->
-  <node pkg="udp_sender" exec="sender" name="UDPSender" output="screen"></node>
-</launch>

@@ -1,0 +1,75 @@
+[0.014s] Invoking command in '/home/arifin/iris_fp1_ws/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/communication -- -j12 -l12
+[0.077s] [ 50%] Built target udp_sender
+[0.085s] [ 75%] [32mBuilding CXX object CMakeFiles/udp_receiver.dir/src/udp_receiver.cpp.o[0m
+[2.161s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:103:29:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Ktrue[m[K’
+[2.161s]   103 | std::atomic<bool> g_running([01;31m[Ktrue[m[K);
+[2.162s]       |                             [01;31m[K^~~~[m[K
+[2.162s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:103:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Ktrue[m[K’
+[2.162s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:124:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.162s]   124 | }
+[2.162s]       |  [01;31m[K^[m[K
+[2.162s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:16:41:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.162s]    16 | class UDPReceiver : public rclcpp::Node [01;36m[K{[m[K
+[2.162s]       |                                         [01;36m[K^[m[K
+[2.163s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:[m[K In constructor ‘[01m[KUDPReceiver::[01;32m[KUDPReceiver[m[K(int)[m[K’:
+[2.163s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:18:56:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KUDPReceiver[m[K’ does not have any field named ‘[01m[Kport_[m[K’
+[2.163s]    18 |     UDPReceiver(int port) : Node("udp_receiver_node"), [01;31m[Kport_[m[K(port) {
+[2.163s]       |                                                        [01;31m[K^~~~~[m[K
+[2.168s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:19:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksock_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksocket[m[K’?
+[2.169s]    19 |         [01;31m[Ksock_[m[K = socket(AF_INET, SOCK_DGRAM, 0);
+[2.169s]       |         [01;31m[K^~~~~[m[K
+[2.169s]       |         [32m[Ksocket[m[K
+[2.175s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:28:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kport_[m[K’ was not declared in this scope; did you mean ‘[01m[Kport[m[K’?
+[2.175s]    28 |         addr.sin_port = htons(static_cast<uint16_t>([01;31m[Kport_[m[K));
+[2.175s]       |                                                     [01;31m[K^~~~~[m[K
+[2.175s]       |                                                     [32m[Kport[m[K
+[2.182s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:[m[K In destructor ‘[01m[Kvirtual UDPReceiver::[01;32m[K~UDPReceiver[m[K()[m[K’:
+[2.182s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:40:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksock_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksocket[m[K’?
+[2.182s]    40 |         if ([01;31m[Ksock_[m[K >= 0) {
+[2.182s]       |             [01;31m[K^~~~~[m[K
+[2.182s]       |             [32m[Ksocket[m[K
+[2.188s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:[m[K In member function ‘[01m[Kvoid UDPReceiver::[01;32m[Kstart_listening[m[K(std::atomic<bool>&)[m[K’:
+[2.188s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:52:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ksock_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksocket[m[K’?
+[2.189s]    52 |             ssize_t len = recvfrom([01;31m[Ksock_[m[K, buf, sizeof(buf), 0,
+[2.189s]       |                                    [01;31m[K^~~~~[m[K
+[2.189s]       |                                    [32m[Ksocket[m[K
+[2.197s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:62:38:[m[K [01;31m[Kerror: [m[K‘[01m[KkHeader[m[K’ was not declared in this scope
+[2.198s]    62 |                 if (std::memcmp(buf, [01;31m[KkHeader[m[K, sizeof(kHeader)) == 0) {
+[2.198s]       |                                      [01;31m[K^~~~~~~[m[K
+[2.198s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:95:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+[2.199s]    95 | [01;31m[Kprivate[m[K:
+[2.199s]       | [01;31m[K^~~~~~~[m[K
+[2.199s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:97:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KkPacketSize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.199s]    97 |     static constexpr size_t [01;35m[KkPacketSize[m[K = 20;
+[2.199s]       |                             [01;35m[K^~~~~~~~~~~[m[K
+[2.199s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:99:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksock_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.199s]    99 |     int [01;35m[Ksock_[m[K = -1;
+[2.199s]       |         [01;35m[K^~~~~[m[K
+[2.199s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:100:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kport_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.199s]   100 |     int [01;35m[Kport_[m[K;
+[2.199s]       |         [01;35m[K^~~~~[m[K
+[2.199s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:[m[K In member function ‘[01m[Kvoid UDPReceiver::[01;32m[Kon_sigint[m[K(int)[m[K’:
+[2.199s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:106:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kstd::atomic<bool> UDPReceiver::[01;32m[Kg_running[m[K(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[2.199s]   106 |     [01;31m[Kg_running[m[K = false;
+[2.199s]       |     [01;31m[K^~~~~~~~~[m[K
+[2.200s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:[m[K In member function ‘[01m[Kint UDPReceiver::[01;32m[Kmain[m[K(int, char**)[m[K’:
+[2.200s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:111:25:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid UDPReceiver::[01;32m[Kon_sigint[m[K(int)[m[K’
+[2.200s]   111 |     std::signal(SIGINT, [01;31m[Kon_sigint[m[K);
+[2.200s]       |                         [01;31m[K^~~~~~~~~[m[K
+[2.200s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:105:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.200s]   105 | void [01;36m[Kon_sigint[m[K(int) {
+[2.200s]       |      [01;36m[K^~~~~~~~~[m[K
+[2.200s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:117:35:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::atomic<bool> UDPReceiver::[01;32m[Kg_running[m[K(int)[m[K’
+[2.200s]   117 |         receiver->start_listening([01;31m[Kg_running[m[K);
+[2.200s]       |                                   [01;31m[K^~~~~~~~~[m[K
+[2.200s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:103:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.200s]   103 | std::atomic<bool> [01;36m[Kg_running[m[K(true);
+[2.201s]       |                   [01;36m[K^~~~~~~~~[m[K
+[2.201s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:[m[K At global scope:
+[2.201s] [01m[K/home/arifin/iris_fp1_ws/src/communication/src/udp_receiver.cpp:124:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[2.201s]   124 | }
+[2.201s]       |  [01;31m[K^[m[K
+[2.774s] gmake[2]: *** [CMakeFiles/udp_receiver.dir/build.make:76: CMakeFiles/udp_receiver.dir/src/udp_receiver.cpp.o] Error 1
+[2.774s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/udp_receiver.dir/all] Error 2
+[2.775s] gmake: *** [Makefile:146: all] Error 2
+[2.777s] Invoked command in '/home/arifin/iris_fp1_ws/build/communication' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/communication -- -j12 -l12

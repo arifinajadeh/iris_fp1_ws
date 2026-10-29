@@ -32,10 +32,18 @@ public:
         2.0 * wheelbase_ * std::sin(alpha),
         jarak
     );
-
         constexpr double RAD_TO_DEG = 180.0 / 3.14159265358979323846;
 
-        return delta * RAD_TO_DEG;
+        double steering = delta * RAD_TO_DEG;
+
+        constexpr double MAX_STEERING_DEG = 0.6 * RAD_TO_DEG;
+
+        if (steering > MAX_STEERING_DEG) {
+            steering = MAX_STEERING_DEG;
+        } else if (steering < -MAX_STEERING_DEG) {
+            steering = -MAX_STEERING_DEG;
+        }
+        return steering;
     }
 
 private:
