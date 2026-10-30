@@ -56,11 +56,6 @@ private:
             Mat frame = cv_bridge::toCvCopy(
                 msg,
                 sensor_msgs::image_encodings::BGR8
-            )->image;
-
-            // =====================================
-            // 1. PERSPECTIVE TRANSFORMATION
-            // =====================================
 
             std::vector<cv::Point2f> srcPoints = {
                 {9, 527},
@@ -90,9 +85,6 @@ private:
                 Size(800, 600)
             );
 
-            // =====================================
-            // 2. HSV THRESHOLDING
-            // =====================================
 
             Mat frame_hsv;
             Mat frame_threshold;
@@ -109,10 +101,6 @@ private:
                 Scalar(180, 70, 255),
                 frame_threshold
             );
-
-            // =====================================
-            // 3. MORPHOLOGY (TERPISAH)
-            // =====================================
 
             Mat frame_morph = frame_threshold.clone();
 
@@ -131,12 +119,6 @@ private:
                 Point(-1, -1),
                 7
             );
-            
-
-            // =====================================
-            // 4. FIND CONTOURS
-            // Tetap menggunakan threshold asli
-            // =====================================
 
             Mat contour_input = frame_morph.clone();
 
@@ -155,10 +137,6 @@ private:
 
             // Menampung titik tengah
             std::vector<cv::Point> centers;
-
-            // =====================================
-            // 5. FILTER CONTOUR
-            // =====================================
 
             for (size_t i = 0; i < contours.size(); i++)
             {
@@ -204,9 +182,6 @@ private:
                 );
             }
 
-            // =====================================
-            // 6. SORT TITIK DARI DEKAT KE JAUH
-            // =====================================
 
             std::sort(
                 centers.begin(),
@@ -215,10 +190,6 @@ private:
                     return a.y > b.y;
                 }
             );
-
-            // =====================================
-            // 7. HUBUNGKAN TITIK
-            // =====================================
 
             for (size_t i = 0; i + 1 < centers.size(); i++)
             {
@@ -231,9 +202,6 @@ private:
                 );
             }
 
-            // =====================================
-            // 8. PUBLISH CENTER POINTS
-            // =====================================
 
             std_msgs::msg::Float32MultiArray points_msg;
 
@@ -249,10 +217,6 @@ private:
             }
 
             points_pub_->publish(points_msg);
-
-            // =====================================
-            // 9. TAMPILKAN SEMUA WINDOW
-            // =====================================
 
             imshow("Mentah Lohya", frame);
             imshow("BEV", bev);
