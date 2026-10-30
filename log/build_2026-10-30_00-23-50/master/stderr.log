@@ -1,0 +1,7 @@
+[01m[K/home/arifin/iris_fp1_ws/src/master/src/master_node.cpp:[m[K In member function ‘[01m[Kvoid MasterNode::[01;32m[Kcontrol_loop[m[K()[m[K’:
+[01m[K/home/arifin/iris_fp1_ws/src/master/src/master_node.cpp:135:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kkinematics_[m[K’ was not declared in this scope
+  135 |             [01;31m[Kkinematics_[m[K->hitungSteering(target_x, target_y);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/master_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

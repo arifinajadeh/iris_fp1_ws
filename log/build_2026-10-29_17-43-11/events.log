@@ -1,0 +1,227 @@
+[0.000000] (-) TimerEvent: {}
+[0.000821] (-) JobUnselected: {'identifier': 'communication'}
+[0.001067] (-) JobUnselected: {'identifier': 'master'}
+[0.001129] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.001167] (vision) JobStarted: {'identifier': 'vision'}
+[0.014750] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.015834] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.016709] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arifin/iris_fp1_ws/build/vision', '--', '-j12', '-l12'], 'cwd': '/home/arifin/iris_fp1_ws/build/vision', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arifin', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/arifin', 'OLDPWD': '/home/arifin', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3189', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arifin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arifin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/arifin-LOQ-15IAX9:@/tmp/.ICE-unix/3035,unix/arifin-LOQ-15IAX9:/tmp/.ICE-unix/3035', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7583caf2_6dde_4c48_8191_62933ca557e4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install/vision:/home/arifin/iris_fp1_ws/install/master:/home/arifin/iris_fp1_ws/install/communication:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arifin/iris_fp1_ws/build/vision', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install/vision:/home/arifin/iris_fp1_ws/install/master:/home/arifin/iris_fp1_ws/install/communication:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099777] (-) TimerEvent: {}
+[0.170147] (vision) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bev_node.dir/src/bev_node.cpp.o\x1b[0m\n'}
+[0.199851] (-) TimerEvent: {}
+[0.300169] (-) TimerEvent: {}
+[0.400505] (-) TimerEvent: {}
+[0.500849] (-) TimerEvent: {}
+[0.601168] (-) TimerEvent: {}
+[0.701468] (-) TimerEvent: {}
+[0.801762] (-) TimerEvent: {}
+[0.902091] (-) TimerEvent: {}
+[1.002413] (-) TimerEvent: {}
+[1.102793] (-) TimerEvent: {}
+[1.203567] (-) TimerEvent: {}
+[1.303975] (-) TimerEvent: {}
+[1.404461] (-) TimerEvent: {}
+[1.504906] (-) TimerEvent: {}
+[1.605323] (-) TimerEvent: {}
+[1.705785] (-) TimerEvent: {}
+[1.806190] (-) TimerEvent: {}
+[1.906605] (-) TimerEvent: {}
+[2.006988] (-) TimerEvent: {}
+[2.107328] (-) TimerEvent: {}
+[2.207714] (-) TimerEvent: {}
+[2.308292] (-) TimerEvent: {}
+[2.408651] (-) TimerEvent: {}
+[2.509061] (-) TimerEvent: {}
+[2.609407] (-) TimerEvent: {}
+[2.709923] (-) TimerEvent: {}
+[2.810356] (-) TimerEvent: {}
+[2.910704] (-) TimerEvent: {}
+[3.011143] (-) TimerEvent: {}
+[3.111533] (-) TimerEvent: {}
+[3.212035] (-) TimerEvent: {}
+[3.312394] (-) TimerEvent: {}
+[3.412710] (-) TimerEvent: {}
+[3.513115] (-) TimerEvent: {}
+[3.613452] (-) TimerEvent: {}
+[3.713964] (-) TimerEvent: {}
+[3.814260] (-) TimerEvent: {}
+[3.914568] (-) TimerEvent: {}
+[4.015016] (-) TimerEvent: {}
+[4.115349] (-) TimerEvent: {}
+[4.215837] (-) TimerEvent: {}
+[4.316255] (-) TimerEvent: {}
+[4.416646] (-) TimerEvent: {}
+[4.517205] (-) TimerEvent: {}
+[4.617654] (-) TimerEvent: {}
+[4.718226] (-) TimerEvent: {}
+[4.818530] (-) TimerEvent: {}
+[4.918859] (-) TimerEvent: {}
+[5.015712] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid BEVNode::\x1b[01;32m\x1b[KimageCallback\x1b[m\x1b[K(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.016105] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:58:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.016530] (vision) StderrLine: {'line': b'   58 |             int \x1b[01;35m\x1b[Kw\x1b[m\x1b[K = frame.cols;\n'}
+[5.016811] (vision) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.016962] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:59:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kheight\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.017117] (vision) StderrLine: {'line': b'   59 |             int \x1b[01;35m\x1b[Kheight\x1b[m\x1b[K = frame.rows;\n'}
+[5.017284] (vision) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.018986] (-) TimerEvent: {}
+[5.119375] (-) TimerEvent: {}
+[5.219737] (-) TimerEvent: {}
+[5.320271] (-) TimerEvent: {}
+[5.420602] (-) TimerEvent: {}
+[5.521451] (-) TimerEvent: {}
+[5.621965] (-) TimerEvent: {}
+[5.722454] (-) TimerEvent: {}
+[5.823033] (-) TimerEvent: {}
+[5.923914] (-) TimerEvent: {}
+[6.024375] (-) TimerEvent: {}
+[6.124894] (-) TimerEvent: {}
+[6.225212] (-) TimerEvent: {}
+[6.325642] (-) TimerEvent: {}
+[6.427489] (-) TimerEvent: {}
+[6.528063] (-) TimerEvent: {}
+[6.628477] (-) TimerEvent: {}
+[6.728901] (-) TimerEvent: {}
+[6.829346] (-) TimerEvent: {}
+[6.929787] (-) TimerEvent: {}
+[7.030325] (-) TimerEvent: {}
+[7.130768] (-) TimerEvent: {}
+[7.231159] (-) TimerEvent: {}
+[7.331747] (-) TimerEvent: {}
+[7.433565] (-) TimerEvent: {}
+[7.534450] (-) TimerEvent: {}
+[7.635067] (-) TimerEvent: {}
+[7.735510] (-) TimerEvent: {}
+[7.836028] (-) TimerEvent: {}
+[7.936542] (-) TimerEvent: {}
+[8.036965] (-) TimerEvent: {}
+[8.137354] (-) TimerEvent: {}
+[8.237838] (-) TimerEvent: {}
+[8.338408] (-) TimerEvent: {}
+[8.438798] (-) TimerEvent: {}
+[8.539210] (-) TimerEvent: {}
+[8.639520] (-) TimerEvent: {}
+[8.739814] (-) TimerEvent: {}
+[8.840101] (-) TimerEvent: {}
+[8.940431] (-) TimerEvent: {}
+[9.040929] (-) TimerEvent: {}
+[9.141349] (-) TimerEvent: {}
+[9.242756] (-) TimerEvent: {}
+[9.343414] (-) TimerEvent: {}
+[9.443914] (-) TimerEvent: {}
+[9.544305] (-) TimerEvent: {}
+[9.644652] (-) TimerEvent: {}
+[9.745036] (-) TimerEvent: {}
+[9.845394] (-) TimerEvent: {}
+[9.945625] (-) TimerEvent: {}
+[10.045894] (-) TimerEvent: {}
+[10.146189] (-) TimerEvent: {}
+[10.246479] (-) TimerEvent: {}
+[10.346946] (-) TimerEvent: {}
+[10.447269] (-) TimerEvent: {}
+[10.547692] (-) TimerEvent: {}
+[10.647980] (-) TimerEvent: {}
+[10.748447] (-) TimerEvent: {}
+[10.848841] (-) TimerEvent: {}
+[10.949276] (-) TimerEvent: {}
+[11.049666] (-) TimerEvent: {}
+[11.150103] (-) TimerEvent: {}
+[11.250628] (-) TimerEvent: {}
+[11.351026] (-) TimerEvent: {}
+[11.451538] (-) TimerEvent: {}
+[11.552043] (-) TimerEvent: {}
+[11.652525] (-) TimerEvent: {}
+[11.752915] (-) TimerEvent: {}
+[11.853354] (-) TimerEvent: {}
+[11.953867] (-) TimerEvent: {}
+[12.054237] (-) TimerEvent: {}
+[12.154700] (-) TimerEvent: {}
+[12.255279] (-) TimerEvent: {}
+[12.355898] (-) TimerEvent: {}
+[12.456333] (-) TimerEvent: {}
+[12.556771] (-) TimerEvent: {}
+[12.657185] (-) TimerEvent: {}
+[12.757472] (-) TimerEvent: {}
+[12.857866] (-) TimerEvent: {}
+[12.958378] (-) TimerEvent: {}
+[13.059163] (-) TimerEvent: {}
+[13.159809] (-) TimerEvent: {}
+[13.260123] (-) TimerEvent: {}
+[13.360969] (-) TimerEvent: {}
+[13.461443] (-) TimerEvent: {}
+[13.562029] (-) TimerEvent: {}
+[13.663025] (-) TimerEvent: {}
+[13.763333] (-) TimerEvent: {}
+[13.863643] (-) TimerEvent: {}
+[13.963958] (-) TimerEvent: {}
+[14.064307] (-) TimerEvent: {}
+[14.164621] (-) TimerEvent: {}
+[14.264933] (-) TimerEvent: {}
+[14.365323] (-) TimerEvent: {}
+[14.465653] (-) TimerEvent: {}
+[14.566117] (-) TimerEvent: {}
+[14.666597] (-) TimerEvent: {}
+[14.767207] (-) TimerEvent: {}
+[14.867623] (-) TimerEvent: {}
+[14.968034] (-) TimerEvent: {}
+[15.068380] (-) TimerEvent: {}
+[15.168799] (-) TimerEvent: {}
+[15.269312] (-) TimerEvent: {}
+[15.369870] (-) TimerEvent: {}
+[15.470443] (-) TimerEvent: {}
+[15.570754] (-) TimerEvent: {}
+[15.671257] (-) TimerEvent: {}
+[15.771699] (-) TimerEvent: {}
+[15.872311] (-) TimerEvent: {}
+[15.973167] (-) TimerEvent: {}
+[16.073566] (-) TimerEvent: {}
+[16.173953] (-) TimerEvent: {}
+[16.274358] (-) TimerEvent: {}
+[16.375094] (-) TimerEvent: {}
+[16.475450] (-) TimerEvent: {}
+[16.575784] (-) TimerEvent: {}
+[16.676385] (-) TimerEvent: {}
+[16.776950] (-) TimerEvent: {}
+[16.877268] (-) TimerEvent: {}
+[16.977618] (-) TimerEvent: {}
+[17.078045] (-) TimerEvent: {}
+[17.178477] (-) TimerEvent: {}
+[17.250090] (vision) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable bev_node\x1b[0m\n'}
+[17.278585] (-) TimerEvent: {}
+[17.378920] (-) TimerEvent: {}
+[17.479275] (-) TimerEvent: {}
+[17.579645] (-) TimerEvent: {}
+[17.680032] (-) TimerEvent: {}
+[17.780367] (-) TimerEvent: {}
+[17.880934] (-) TimerEvent: {}
+[17.981460] (-) TimerEvent: {}
+[18.081899] (-) TimerEvent: {}
+[18.182301] (-) TimerEvent: {}
+[18.283651] (-) TimerEvent: {}
+[18.383956] (-) TimerEvent: {}
+[18.479873] (vision) StdoutLine: {'line': b'[100%] Built target bev_node\n'}
+[18.484047] (-) TimerEvent: {}
+[18.499608] (vision) CommandEnded: {'returncode': 0}
+[18.500431] (vision) JobProgress: {'identifier': 'vision', 'progress': 'install'}
+[18.513611] (vision) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arifin/iris_fp1_ws/build/vision'], 'cwd': '/home/arifin/iris_fp1_ws/build/vision', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arifin', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/arifin', 'OLDPWD': '/home/arifin', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3189', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arifin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arifin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/arifin-LOQ-15IAX9:@/tmp/.ICE-unix/3035,unix/arifin-LOQ-15IAX9:/tmp/.ICE-unix/3035', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7583caf2_6dde_4c48_8191_62933ca557e4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install/vision:/home/arifin/iris_fp1_ws/install/master:/home/arifin/iris_fp1_ws/install/communication:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arifin/iris_fp1_ws/build/vision', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install/vision:/home/arifin/iris_fp1_ws/install/master:/home/arifin/iris_fp1_ws/install/communication:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[18.524190] (vision) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.525174] (vision) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.525781] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/lib/vision/bev_node\n'}
+[18.526071] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/ament_index/resource_index/package_run_dependencies/vision\n'}
+[18.526384] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/ament_index/resource_index/parent_prefix_path/vision\n'}
+[18.526596] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/environment/ament_prefix_path.sh\n'}
+[18.526746] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/environment/ament_prefix_path.dsv\n'}
+[18.526900] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/environment/path.sh\n'}
+[18.527218] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/environment/path.dsv\n'}
+[18.527418] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/local_setup.bash\n'}
+[18.527520] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/local_setup.sh\n'}
+[18.527629] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/local_setup.zsh\n'}
+[18.527743] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/local_setup.dsv\n'}
+[18.527842] (vision) StdoutLine: {'line': b'-- Symlinking: /home/arifin/iris_fp1_ws/install/vision/share/vision/package.dsv\n'}
+[18.548239] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/ament_index/resource_index/packages/vision\n'}
+[18.548896] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/cmake/visionConfig.cmake\n'}
+[18.550243] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/cmake/visionConfig-version.cmake\n'}
+[18.550651] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/package.xml\n'}
+[18.552450] (vision) CommandEnded: {'returncode': 0}
+[18.585890] (-) TimerEvent: {}
+[18.598654] (vision) JobEnded: {'identifier': 'vision', 'rc': 0}
+[18.600568] (-) EventReactorShutdown: {}

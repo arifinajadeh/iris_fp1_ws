@@ -1,0 +1,13 @@
+[0.013s] Invoking command in '/home/arifin/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/vision -- -j12 -l12
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/bev_node.dir/src/bev_node.cpp.o[0m
+[2.998s] [01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:[m[K In member function ‘[01m[Kvoid BEVNode::[01;32m[KimageCallback[m[K(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[2.998s] [01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:112:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontours[m[K’ was not declared in this scope
+[2.998s]   112 |                 [01;31m[Kcontours[m[K,
+[2.998s]       |                 [01;31m[K^~~~~~~~[m[K
+[3.008s] [01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:113:17:[m[K [01;31m[Kerror: [m[K‘[01m[Khierarchy[m[K’ was not declared in this scope
+[3.008s]   113 |                 [01;31m[Khierarchy[m[K,
+[3.008s]       |                 [01;31m[K^~~~~~~~~[m[K
+[5.833s] gmake[2]: *** [CMakeFiles/bev_node.dir/build.make:76: CMakeFiles/bev_node.dir/src/bev_node.cpp.o] Error 1
+[5.833s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bev_node.dir/all] Error 2
+[5.834s] gmake: *** [Makefile:146: all] Error 2
+[5.836s] Invoked command in '/home/arifin/iris_fp1_ws/build/vision' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/vision -- -j12 -l12

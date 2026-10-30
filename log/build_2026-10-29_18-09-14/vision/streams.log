@@ -1,0 +1,58 @@
+[0.027s] Invoking command in '/home/arifin/iris_fp1_ws/build/vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/vision -- -j12 -l12
+[0.084s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.492s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.507s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.559s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.574s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.593s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.617s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.722s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.725s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.876s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.008s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.103s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.255s] Error parsing '/home/arifin/iris_fp1_ws/src/vision/package.xml':
+[6.390s] Traceback (most recent call last):
+[6.390s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[6.391s]     root = dom.parseString(data)
+[6.392s]            ^^^^^^^^^^^^^^^^^^^^^
+[6.393s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 1995, in parseString
+[6.394s]     return expatbuilder.parseString(string)
+[6.395s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[6.396s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[6.396s]     return builder.parseString(string)
+[6.397s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[6.398s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[6.399s]     parser.Parse(string, True)
+[6.399s] xml.parsers.expat.ExpatError: XML or text declaration not at start of entity: line 2, column 0
+[6.399s] 
+[6.400s] During handling of the above exception, another exception occurred:
+[6.400s] 
+[6.400s] Traceback (most recent call last):
+[6.400s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[6.400s]     main()
+[6.401s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[6.401s]     raise e
+[6.401s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[6.402s]     package = parse_package_string(
+[6.402s]               ^^^^^^^^^^^^^^^^^^^^^
+[6.402s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[6.402s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[6.403s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/arifin/iris_fp1_ws/src/vision/package.xml':
+[6.403s] The manifest contains invalid XML:
+[6.404s] XML or text declaration not at start of entity: line 2, column 0
+[6.497s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[6.497s]   execute_process(/usr/bin/python3
+[6.497s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[6.498s]   /home/arifin/iris_fp1_ws/src/vision/package.xml
+[6.498s]   /home/arifin/iris_fp1_ws/build/vision/ament_cmake_core/package.cmake)
+[6.498s]   returned error code 1
+[6.498s] Call Stack (most recent call first):
+[6.499s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[6.499s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[6.499s]   CMakeLists.txt:32 (ament_package)
+[6.499s] 
+[6.500s] [0m
+[6.500s] -- Configuring incomplete, errors occurred!
+[6.518s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[6.524s] Invoked command in '/home/arifin/iris_fp1_ws/build/vision' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/vision -- -j12 -l12

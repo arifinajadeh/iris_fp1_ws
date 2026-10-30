@@ -1,0 +1,25 @@
+[0.019s] Invoking command in '/home/arifin/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/vision -- -j12 -l12
+[0.140s] [ 50%] [32mBuilding CXX object CMakeFiles/bev_node.dir/src/bev_node.cpp.o[0m
+[18.275s] [100%] [32m[1mLinking CXX executable bev_node[0m
+[19.519s] [100%] Built target bev_node
+[19.552s] Invoked command in '/home/arifin/iris_fp1_ws/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/vision -- -j12 -l12
+[19.573s] Invoking command in '/home/arifin/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arifin/iris_fp1_ws/build/vision
+[19.589s] -- Install configuration: ""
+[19.590s] -- Execute custom install script
+[19.592s] -- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/lib/vision/bev_node
+[19.593s] -- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/ament_index/resource_index/package_run_dependencies/vision
+[19.594s] -- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/ament_index/resource_index/parent_prefix_path/vision
+[19.595s] -- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/environment/ament_prefix_path.sh
+[19.595s] -- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/environment/ament_prefix_path.dsv
+[19.595s] -- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/environment/path.sh
+[19.596s] -- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/environment/path.dsv
+[19.596s] -- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/local_setup.bash
+[19.597s] -- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/local_setup.sh
+[19.597s] -- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/local_setup.zsh
+[19.597s] -- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/local_setup.dsv
+[19.598s] -- Symlinking: /home/arifin/iris_fp1_ws/install/vision/share/vision/package.dsv
+[19.621s] -- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/ament_index/resource_index/packages/vision
+[19.622s] -- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/cmake/visionConfig.cmake
+[19.622s] -- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/cmake/visionConfig-version.cmake
+[19.623s] -- Up-to-date symlink: /home/arifin/iris_fp1_ws/install/vision/share/vision/package.xml
+[19.627s] Invoked command in '/home/arifin/iris_fp1_ws/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arifin/iris_fp1_ws/build/vision

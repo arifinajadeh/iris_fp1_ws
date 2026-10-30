@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.000401] (-) JobUnselected: {'identifier': 'communication'}
+[0.000685] (-) JobUnselected: {'identifier': 'master'}
+[0.000763] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.000814] (vision) JobStarted: {'identifier': 'vision'}
+[0.009873] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.010610] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.011291] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arifin/iris_fp1_ws/build/vision', '--', '-j12', '-l12'], 'cwd': '/home/arifin/iris_fp1_ws/build/vision', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3067-1-arifin-LOQ-15IAX9_TIME31333', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arifin', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/arifin', 'OLDPWD': '/home/arifin', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2675', 'SYSTEMD_EXEC_PID': '3067', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3980', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arifin', 'JOURNAL_STREAM': '10:22047', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arifin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/arifin-LOQ-15IAX9:@/tmp/.ICE-unix/3036,unix/arifin-LOQ-15IAX9:/tmp/.ICE-unix/3036', 'INVOCATION_ID': '13fdabc34a4847219f77e9796ae29e5e', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '16', 'AMENT_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install/vision:/home/arifin/iris_fp1_ws/install/master:/home/arifin/iris_fp1_ws/install/communication:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:3f5a4ba6-4c4d-455d-ab08-58b5d7caccf6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arifin/iris_fp1_ws/build/vision', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/arifin/iris_fp1_ws/install/vision:/home/arifin/iris_fp1_ws/install/master:/home/arifin/iris_fp1_ws/install/communication:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.072299] (vision) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bev_node.dir/src/bev_node.cpp.o\x1b[0m\n'}
+[0.099633] (-) TimerEvent: {}
+[0.199928] (-) TimerEvent: {}
+[0.300228] (-) TimerEvent: {}
+[0.400546] (-) TimerEvent: {}
+[0.500880] (-) TimerEvent: {}
+[0.601144] (-) TimerEvent: {}
+[0.702877] (-) TimerEvent: {}
+[0.803204] (-) TimerEvent: {}
+[0.903472] (-) TimerEvent: {}
+[1.003748] (-) TimerEvent: {}
+[1.104121] (-) TimerEvent: {}
+[1.204412] (-) TimerEvent: {}
+[1.304664] (-) TimerEvent: {}
+[1.404904] (-) TimerEvent: {}
+[1.505135] (-) TimerEvent: {}
+[1.605423] (-) TimerEvent: {}
+[1.705692] (-) TimerEvent: {}
+[1.806034] (-) TimerEvent: {}
+[1.906275] (-) TimerEvent: {}
+[2.006529] (-) TimerEvent: {}
+[2.106803] (-) TimerEvent: {}
+[2.207132] (-) TimerEvent: {}
+[2.307366] (-) TimerEvent: {}
+[2.407627] (-) TimerEvent: {}
+[2.507897] (-) TimerEvent: {}
+[2.608174] (-) TimerEvent: {}
+[2.708406] (-) TimerEvent: {}
+[2.808668] (-) TimerEvent: {}
+[2.908961] (-) TimerEvent: {}
+[2.998319] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid BEVNode::\x1b[01;32m\x1b[KimageCallback\x1b[m\x1b[K(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.998689] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:112:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcontours\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.998841] (vision) StderrLine: {'line': b'  112 |                 \x1b[01;31m\x1b[Kcontours\x1b[m\x1b[K,\n'}
+[2.998963] (vision) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.008430] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:113:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khierarchy\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.008675] (vision) StderrLine: {'line': b'  113 |                 \x1b[01;31m\x1b[Khierarchy\x1b[m\x1b[K,\n'}
+[3.008780] (vision) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.009014] (-) TimerEvent: {}
+[3.109273] (-) TimerEvent: {}
+[3.209826] (-) TimerEvent: {}
+[3.310188] (-) TimerEvent: {}
+[3.410524] (-) TimerEvent: {}
+[3.510833] (-) TimerEvent: {}
+[3.611141] (-) TimerEvent: {}
+[3.711460] (-) TimerEvent: {}
+[3.811753] (-) TimerEvent: {}
+[3.912031] (-) TimerEvent: {}
+[4.012370] (-) TimerEvent: {}
+[4.112665] (-) TimerEvent: {}
+[4.212958] (-) TimerEvent: {}
+[4.313263] (-) TimerEvent: {}
+[4.413570] (-) TimerEvent: {}
+[4.513930] (-) TimerEvent: {}
+[4.614206] (-) TimerEvent: {}
+[4.714474] (-) TimerEvent: {}
+[4.814749] (-) TimerEvent: {}
+[4.915023] (-) TimerEvent: {}
+[5.015283] (-) TimerEvent: {}
+[5.115564] (-) TimerEvent: {}
+[5.215920] (-) TimerEvent: {}
+[5.316264] (-) TimerEvent: {}
+[5.416586] (-) TimerEvent: {}
+[5.516910] (-) TimerEvent: {}
+[5.617218] (-) TimerEvent: {}
+[5.717562] (-) TimerEvent: {}
+[5.817902] (-) TimerEvent: {}
+[5.834062] (vision) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bev_node.dir/build.make:76: CMakeFiles/bev_node.dir/src/bev_node.cpp.o] Error 1\n'}
+[5.834285] (vision) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bev_node.dir/all] Error 2\n'}
+[5.834525] (vision) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.836417] (vision) CommandEnded: {'returncode': 2}
+[5.846435] (vision) JobEnded: {'identifier': 'vision', 'rc': 2}
+[5.856890] (-) EventReactorShutdown: {}

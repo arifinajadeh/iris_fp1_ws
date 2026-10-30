@@ -7,8 +7,7 @@ endif()
 
 # Find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(rclcpp REQUIRED)
-
+find_package(rclcpp REQUIRED
 # Daftarkan executable untuk sender
 add_executable(udp_sender src/udp_sender.cpp)
 ament_target_dependencies(udp_sender rclcpp)

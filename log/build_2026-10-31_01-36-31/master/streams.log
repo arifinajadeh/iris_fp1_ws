@@ -1,0 +1,9 @@
+[0.022s] Invoking command in '/home/arifin/iris_fp1_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/master -- -j12 -l12
+[0.142s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
+[3.949s] [01m[K/home/arifin/iris_fp1_ws/src/master/src/master_node.cpp:477:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcoba[m[K’ does not name a type
+[3.949s]   477 | [01;31m[Kcoba[m[K kamu aja yang ubah
+[3.949s]       | [01;31m[K^~~~[m[K
+[7.515s] gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/master_node.cpp.o] Error 1
+[7.516s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+[7.517s] gmake: *** [Makefile:146: all] Error 2
+[7.522s] Invoked command in '/home/arifin/iris_fp1_ws/build/master' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/master -- -j12 -l12

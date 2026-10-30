@@ -1,0 +1,16 @@
+[01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:[m[K In member function ‘[01m[Kvoid BEVNode::[01;32m[KimageCallback[m[K(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:105:18:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid cv::[01;32m[Kerode[m[K(InputArray, OutputArray, InputArray, Point, int, int, const Scalar&)[m[K’
+  105 |             [01;31m[Kerode(frame_threshold)[m[K
+      |             [01;31m[K~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/imgproc/imgproc.hpp:48[m[K,
+                 from [01m[K/opt/ros/jazzy/include/cv_bridge/cv_bridge/cv_bridge.hpp:44[m[K,
+                 from [01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:10[m[K:
+[01m[K/usr/include/opencv4/opencv2/imgproc.hpp:2259:19:[m[K [01;36m[Knote: [m[Kdeclared here
+ 2259 | CV_EXPORTS_W void [01;36m[Kerode[m[K( InputArray src, OutputArray dst, InputArray kernel,
+      |                   [01;36m[K^~~~~[m[K
+[01m[K/home/arifin/iris_fp1_ws/src/vision/src/bev_node.cpp:113:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontour_input[m[K’ was not declared in this scope
+  113 |                 [01;31m[Kcontour_input[m[K,
+      |                 [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/bev_node.dir/build.make:76: CMakeFiles/bev_node.dir/src/bev_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bev_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

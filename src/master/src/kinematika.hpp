@@ -4,6 +4,7 @@
 
 #include <cmath>
 #include <stdexcept>
+#include <algorithm>
 
 class AckermannKinematics {
 public:
@@ -48,6 +49,54 @@ public:
 
 private:
     double wheelbase_;
+};
+
+class PIDController {
+public:
+    PIDController(double kp, double ki, double kd,
+                  double max_output)
+        : kp_(kp), ki_(ki), kd_(kd),
+          max_output_(max_output) {}
+
+    double update(double error, double dt) {
+        if (dt <= 0.0) {
+            return 0.0;
+        }
+
+        integral_ += error * dt;
+
+        const double derivative =
+            has_previous_error_
+                ? (error - previous_error_) / dt
+                : 0.0;
+
+        previous_error_ = error;
+        has_previous_error_ = true;
+
+        double output =
+            kp_ * error
+            + ki_ * integral_
+            + kd_ * derivative;
+
+        output = std::clamp(
+            output, -max_output_, max_output_);
+
+        return output;
+    }
+
+    void reset() {
+        integral_ = 0.0;
+        previous_error_ = 0.0;
+        has_previous_error_ = false;
+    }
+
+private:
+    double kp_, ki_, kd_;
+    double max_output_;
+
+    double integral_ = 0.0;
+    double previous_error_ = 0.0;
+    bool has_previous_error_ = false;
 };
 
 #endif

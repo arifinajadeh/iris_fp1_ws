@@ -11,6 +11,7 @@ find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(OpenCV REQUIRED)
+find_package(std_msgs REQUIRED)
 
 add_executable(bev_node src/bev_node.cpp)
 
@@ -18,6 +19,7 @@ ament_target_dependencies(bev_node
   rclcpp
   sensor_msgs
   cv_bridge
+  std_msgs
 )
 
 target_link_libraries(bev_node ${OpenCV_LIBS})

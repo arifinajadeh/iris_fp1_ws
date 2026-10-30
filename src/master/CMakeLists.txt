@@ -8,26 +8,11 @@ endif()
 
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
 
 add_executable(master_node src/master_node.cpp)
-ament_target_dependencies(master_node rclcpp)
 
-install(
-  TARGETS master_node
-  DESTINATION lib/${PROJECT_NAME}
+ament_target_dependencies(master_node
+  rclcpp
+  std_msgs
 )
-
-install(
-  DIRECTORY src/
-  DESTINATION share/${PROJECT_NAME}/src
-  FILES_MATCHING PATTERN "*.hpp"
-)
-
-if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-  set(ament_cmake_copyright_FOUND TRUE)
-  set(ament_cmake_cpplint_FOUND TRUE)
-  ament_lint_auto_find_test_dependencies()
-endif()
-
-ament_package()
