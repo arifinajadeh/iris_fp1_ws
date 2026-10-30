@@ -1,9 +1,0 @@
-/home/arifin/iris_fp1_ws/src/build/vision/CMakeFiles/uninstall.dir
-/home/arifin/iris_fp1_ws/src/build/vision/CMakeFiles/vision_uninstall.dir
-/home/arifin/iris_fp1_ws/src/build/vision/CMakeFiles/test.dir
-/home/arifin/iris_fp1_ws/src/build/vision/CMakeFiles/edit_cache.dir
-/home/arifin/iris_fp1_ws/src/build/vision/CMakeFiles/rebuild_cache.dir
-/home/arifin/iris_fp1_ws/src/build/vision/CMakeFiles/list_install_components.dir
-/home/arifin/iris_fp1_ws/src/build/vision/CMakeFiles/install.dir
-/home/arifin/iris_fp1_ws/src/build/vision/CMakeFiles/install/local.dir
-/home/arifin/iris_fp1_ws/src/build/vision/CMakeFiles/install/strip.dir

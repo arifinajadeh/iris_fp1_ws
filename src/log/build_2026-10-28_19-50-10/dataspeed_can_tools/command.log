@@ -1,1 +1,0 @@
-Invoking command in '/home/arifin/iris_fp1_ws/src/build/dataspeed_can_tools': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arifin/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/dataspeed_can/dataspeed_can_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/arifin/iris_fp1_ws/src/install/dataspeed_can_tools
