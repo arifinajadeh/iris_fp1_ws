@@ -1,1 +1,0 @@
-/home/arifin/iris_fp1_ws/build/vision/ament_cmake_environment_hooks/local_setup.sh

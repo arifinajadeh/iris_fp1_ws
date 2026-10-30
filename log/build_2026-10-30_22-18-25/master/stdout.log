@@ -1,5 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
-[100%] [32m[1mLinking CXX executable master_node[0m
-[100%] Built target master_node
--- Install configuration: ""
--- Execute custom install script

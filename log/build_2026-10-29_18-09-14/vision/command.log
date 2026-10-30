@@ -1,2 +1,0 @@
-Invoking command in '/home/arifin/iris_fp1_ws/build/vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/vision -- -j12 -l12
-Invoked command in '/home/arifin/iris_fp1_ws/build/vision' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/vision -- -j12 -l12

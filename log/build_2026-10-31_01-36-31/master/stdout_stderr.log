@@ -1,7 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
-[01m[K/home/arifin/iris_fp1_ws/src/master/src/master_node.cpp:477:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcoba[m[K’ does not name a type
-  477 | [01;31m[Kcoba[m[K kamu aja yang ubah
-      | [01;31m[K^~~~[m[K
-gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/master_node.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

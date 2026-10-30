@@ -1,7 +1,0 @@
-[0.018s] Invoking command in '/home/arifin/iris_fp1_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/master -- -j12 -l12
-[0.127s] [100%] Built target master_node
-[0.147s] Invoked command in '/home/arifin/iris_fp1_ws/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arifin/iris_fp1_ws/build/master -- -j12 -l12
-[0.160s] Invoking command in '/home/arifin/iris_fp1_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arifin/iris_fp1_ws/build/master
-[0.170s] -- Install configuration: ""
-[0.170s] -- Execute custom install script
-[0.173s] Invoked command in '/home/arifin/iris_fp1_ws/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arifin/iris_fp1_ws/build/master
